@@ -9,6 +9,8 @@ The following need to be installed:
 * Logwatch
 * Curl
 
+See `Related Links` for more information about how to install and configure logwatch.
+
 ### Setting up
 
 #### In Telegram
@@ -31,3 +33,9 @@ Edit the crontab.
 
 Add the following line to send the logwatch results every day at 8.00 AM.
 > 0 8 * * * /bin/bash /root/logwatch_bot/logwatch.sh
+
+## Related Links
+
+* [How To Install and Use Logwatch Log Analyzer and Reporter on a VPS ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-logwatch-log-analyzer-and-reporter-on-a-vps)
+* [Logwatch - ArchWiki](https://wiki.archlinux.org/index.php/Logwatch)
+* [OpenVPN logwatch script](https://gist.github.com/fxkjd/7162cc54fc8f3a3f3ba88ba258ce74c3)
